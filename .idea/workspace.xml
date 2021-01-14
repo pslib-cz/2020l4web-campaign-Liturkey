@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87d6cd2a-afc6-4fa9-b57b-4a5a8ff08758" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1n1R6otlLIpwZsUCDa147ImZp9e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87d6cd2a-afc6-4fa9-b57b-4a5a8ff08758" name="Default Changelist" comment="" />
+      <created>1610555437567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610555437567</updated>
+      <workItem from="1610555438717" duration="1335000" />
+      <workItem from="1610557414768" duration="5484000" />
+      <workItem from="1610619011546" duration="3575000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1293" y="318" key="EditFileWatcherDialog" timestamp="1610555540769">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1293" y="318" key="EditFileWatcherDialog/0.0.1920.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1610555540769" />
+    <state x="-1459" y="185" key="SettingsEditor" timestamp="1610555541610">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1459" y="185" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1610555541610" />
+    <state x="-1186" y="407" width="565" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1610556752437">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1186" y="407" width="565" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1610556752437" />
+  </component>
+</project>
