@@ -4,7 +4,7 @@ GitHub projekt pro reklamní kampaň **brainhack** z hodin MME a WEB v L4. V tom
 
 ## Webová stránka
 
-Demo webové stránky je dostupné na https://liturkey.github.io/brainhack. Pokud chcete webovou stránku spustit na svém počítači, není nic jednoduššího než si přes Git zklonovat projekt do svého počítače a spustit soubor `/index.html`.
+Demo webové stránky je dostupné na https://pslib-cz.github.io/2020l4web-campaign-Liturkey/. Pokud chcete webovou stránku spustit na svém počítači, není nic jednoduššího než si přes Git zklonovat projekt do svého počítače a spustit soubor `/index.html`.
 
 Při úpravách je třeba myslet na to, že styly jsou vedené přes SCSS. Tudíž je potřeba pokaždé styl zkompilovat. K tomuto doporučuji použít [node-sass](https://github.com/sass/node-sass) balíček pro Node.js.
 

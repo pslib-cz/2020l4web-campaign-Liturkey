@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     color: #000;
+    overflow-x: hidden;
 }
 
 p {
@@ -23,7 +24,18 @@ h2 {
     margin-bottom: 2rem;
 }
 
-header {
+.bhbutton {
+    padding: 1rem 2rem;
+    background: #7733FF;
+    border: none;
+    border-radius: 28px;
+}
+
+.bhbutton:hover {
+    background: #6a2fe2;
+}
+
+body > header {
     height: 100vh;
 
     .header-container {
@@ -38,6 +50,10 @@ header {
             max-width: 100%;
             margin-top: -5rem;
         }
+    }
+
+    .bhbutton {
+        margin-top: 2rem;
     }
 }
 
@@ -66,6 +82,16 @@ section.about {
             align-items: center;
         }
     }
+
+    @media (max-width: 768px) {
+        .features {
+            margin-top: 1.5rem;
+        }
+
+        .icon {
+            margin-top: 1.5rem;
+        }
+    }
 }
 
 section.nature {
@@ -73,7 +99,133 @@ section.nature {
     background-color: #7733ff;
     padding: 8rem 0;
     text-align: right;
-    background-image: url('./background-nature.jpg');
+    background-image: linear-gradient(rgba(82, 35, 174, 0.4), rgba(82, 35, 174, 0.4)), url('./background-nature.jpg');
     background-attachment: fixed;
     background-size: cover;
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+
+    .bhbutton {
+        margin-top: 2rem;
+    }
+}
+
+section.reviews {
+    h2 {
+        margin-bottom: 0rem;
+    }
+
+    > .container {
+        margin-top: 2rem;
+    }
+
+    .review {
+        border-radius: 20px;
+        margin-bottom: 1.5rem;
+        box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.1);
+
+        header {
+            color: #fff;
+            padding: 1rem 1.5rem;
+            border-radius: 20px 20px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-image: linear-gradient(to right, #9764FF, #602BC9);
+
+            p {
+                font-size: 1rem;
+                font-weight: bold;
+            }
+        }
+
+        .content {
+            padding: 1.5rem;
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+section.final {
+    .row .row {
+        align-items: center;
+    }
+
+    img {
+        width: 300px;
+        max-width: 100%;
+    }
+
+    .bhbutton {
+        margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+        img {
+            margin-top: 3rem;
+        }
+    }
+}
+
+footer {
+    padding: 3rem 0;
+    margin-top: 5rem;
+
+    .logo {
+        height: 3rem;
+    }
+
+    .col-md-6 {
+        display: flex;
+        align-items: center;
+    }
+
+    .left {
+        p {
+            font-size: 2rem;
+            margin-left: 0.5rem;
+            font-weight: 800;
+            letter-spacing: 0px;
+        }
+    }
+
+    .right {
+        display: flex;
+        justify-content: flex-end;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+
+            li::after {
+                margin: 0 0.5rem;
+                content: '-';
+                display: inline-block;
+            }
+
+            li:last-child::after {
+                display: none;
+            }
+
+            li {
+                a {
+                    color: inherit;
+                    opacity: 0.5;
+                    text-decoration: none;
+                    transition-duration: 250ms;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
 }
