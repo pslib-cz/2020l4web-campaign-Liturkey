@@ -38,6 +38,41 @@ h2 {
 body > header {
     height: 100vh;
 
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 0;
+
+        .left {
+            display: flex;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+
+            a {
+                padding: 0.5rem 1rem;
+                transition: 100ms;
+
+                &:hover {
+                    color: #7733FF;
+                }
+            }
+        }
+    }
+
     .header-container {
         max-width: 1320px;
         margin: auto;
