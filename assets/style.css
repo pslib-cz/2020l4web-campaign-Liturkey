@@ -37,12 +37,36 @@ h2 {
 
 body > header {
   height: 100vh;
+  background-image: url("./background.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+}
+@media (max-width: 768px) {
+  body > header {
+    background: none;
+  }
+}
+body > header > .container {
+  height: 100%;
+  position: relative;
+}
+body > header .jumbo {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 body > header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 3rem 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+body > header nav .logo {
+  height: 4rem;
 }
 body > header nav .left {
   display: flex;
@@ -59,11 +83,26 @@ body > header nav ul {
   padding: 0;
   display: flex;
 }
-body > header nav ul a {
+body > header nav .right {
+  display: flex;
+  align-items: center;
+}
+body > header nav .right .number {
+  background: #7733FF;
+  border-radius: 50%;
+  color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+body > header a {
   padding: 0.5rem 1rem;
   transition: 100ms;
 }
-body > header nav ul a:hover {
+body > header a:hover {
   color: #7733FF;
 }
 body > header .header-container {

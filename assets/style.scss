@@ -37,13 +37,38 @@ h2 {
 
 body > header {
     height: 100vh;
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
 
+    @media (max-width: 768px) {
+        background: none;
+    }
+
+    >.container {
+        height: 100%;
+        position: relative;
+    }
+
+    .jumbo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
 
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 3rem 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+        .logo {
+            height: 4rem;
+        }
 
         .left {
             display: flex;
@@ -61,15 +86,32 @@ body > header {
             margin: 0;
             padding: 0;
             display: flex;
+        }
 
-            a {
-                padding: 0.5rem 1rem;
-                transition: 100ms;
+        .right {
+            display: flex;
+            align-items: center;
 
-                &:hover {
-                    color: #7733FF;
-                }
+            .number {
+                background: #7733FF;
+                border-radius: 50%;
+                color: #fff;
+                width: 2.5rem;
+                height: 2.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
             }
+        }
+    }
+
+    a {
+        padding: 0.5rem 1rem;
+        transition: 100ms;
+
+        &:hover {
+            color: #7733FF;
         }
     }
 
